@@ -205,7 +205,7 @@ button:focus {
 }
 
 .navbar-light .navbar-toggler:hover {
-    background: #cfa671;
+    background: #52c4b5;
 }
 
 
@@ -287,8 +287,8 @@ button:focus {
 
 .btn-outline-new-white:hover {
     color: #ffffff;
-    background-color: #cfa671;
-    border-color: #cfa671;
+    background-color: #52c4b5;
+    border-color: #52c4b5;
 }
 
 .overlay-background {
@@ -318,8 +318,8 @@ button:focus {
 }
 
 .slides-pagination a.current {
-    background: #cfa671;
-    border: 2px solid #cfa671;
+    background: #52c4b5;
+    border: 2px solid #52c4b5;
 }
 
 
@@ -455,13 +455,16 @@ button:focus {
     box-shadow: 0 0 10px #ccc;
 }
 
+
+/* fondo de ventana planes */
+
 .why-text {
     position: absolute;
     left: 0;
     bottom: -100%;
     right: 0;
     height: 100%;
-    background: rgba(207, 166, 113, 0.9);
+    background: #52c4b570;
     padding: 12px 12px;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
@@ -493,6 +496,9 @@ button:focus {
 .gallery-single:hover .why-text {
     bottom: 0px;
 }
+
+
+/* viedeo */
 
 
 /*------------------------------------------------------------------
@@ -800,7 +806,7 @@ button:focus {
 
 .page-breadcrumb {
     padding: 250px 0 150px;
-    background: url(../images/all-bg.jpg) no-repeat;
+    background: url(../images/17.jpeg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: 0 0;
